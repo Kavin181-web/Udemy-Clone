@@ -1,0 +1,145 @@
+body{
+font-family: Arial;
+margin:0;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:10px 20px;
+border-bottom:1px solid lightgray;
+}
+
+.logo{
+color:#A435F0;
+}
+
+.search input{
+width:500px;
+padding:10px;
+border-radius:20px;
+border:1px solid gray;
+}
+
+.menu{
+display:flex;
+gap:20px;
+align-items:center;
+}
+
+.menu p{
+cursor:pointer;
+}
+
+/* Categories */
+
+.categories{
+display:flex;
+justify-content:space-around;
+padding:10px;
+}
+
+.categories div{
+background:purple;
+color:white;
+padding:8px 15px;
+border-radius:20px;
+}
+
+/* Recommended Section */
+
+.recommended{
+padding:20px;
+}
+
+.sub{
+color:gray;
+margin-bottom:20px;
+}
+
+.course-container{
+display:flex;
+gap:20px;
+}
+
+.course-card{
+width:250px;
+}
+
+.course-card img{
+width:100%;
+border-radius:5px;
+}
+
+.course-card h3{
+font-size:16px;
+margin:5px 0;
+}
+
+.course-card p{
+margin:2px 0;
+}
+
+
+/* Topics */
+
+.topics{
+padding:20px;
+}
+
+.topic-container{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.topic{
+border:1px solid gray;
+padding:10px 50px;
+cursor:pointer;
+}
+
+/* Most Popular Section */
+
+.popular{
+padding:20px;
+}
+
+.popular-container{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+
+/* Footer */
+
+.footer{
+background:black;
+color:white;
+padding:40px;
+}
+
+.footer-one{
+display:flex;
+gap:100px;
+margin-bottom:40px;
+}
+
+.footer-column p{
+margin:10px 0;
+cursor:pointer;
+}
+
+.footer-two{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.footer-two h1{
+color:white;
+}
