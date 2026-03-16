@@ -7,6 +7,8 @@ margin:0;
 
 .navbar{
 display:flex;
+flex-wrap:wrap;
+gap:10px;
 align-items:center;
 justify-content:space-between;
 padding:10px 20px;
@@ -18,7 +20,8 @@ color:#A435F0;
 }
 
 .search input{
-width:500px;
+width:100%;
+max-width:500px;
 padding:10px;
 border-radius:20px;
 border:1px solid gray;
@@ -63,6 +66,7 @@ margin-bottom:20px;
 .course-container{
 display:flex;
 gap:20px;
+flex-wrap:wrap;
 }
 
 .course-card{
